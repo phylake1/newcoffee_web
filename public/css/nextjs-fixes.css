@@ -259,14 +259,3 @@ iframe[src*="google.com/maps"]:hover {
 .elementor-widget[data-settings*="is_scrollme"] .elementor-widget-container {
   will-change: transform;
 }
-
-/* Gallery slider ok butonları — global button stilini sıfırla */
-button[aria-label="Önceki"],
-button[aria-label="Sonraki"] {
-  display: flex !important;
-  padding: 0 !important;
-  border-radius: 50% !important;
-  text-shadow: none !important;
-  font-size: 26px !important;
-  line-height: 1 !important;
-}

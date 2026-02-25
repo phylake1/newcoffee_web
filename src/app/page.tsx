@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import GallerySlider from "@/components/GallerySlider";
 
+
 export default function HomePage() {
   return (
     <>
@@ -3253,7 +3254,70 @@ export default function HomePage() {
                           </div>
                         </section>
 
-                        <GallerySlider />
+                        <section
+                          className="elementor-section elementor-top-section elementor-element elementor-element-67fe11f elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                          data-id="67fe11f"
+                          data-element_type="section"
+                          data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"false"}'
+                        >
+                          <div className="elementor-container elementor-column-gap-default">
+                            <div className="elementor-row">
+                              <div
+                                className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e0a9ea"
+                                data-id="3e0a9ea"
+                                data-element_type="column"
+                                data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
+                              >
+                                <div className="elementor-column-wrap elementor-element-populated">
+                                  <div className="elementor-widget-wrap">
+                                    <div
+                                      className="elementor-element elementor-element-477fd83 elementor-widget elementor-widget-craftcoffee-gallery-horizontal"
+                                      data-id="477fd83"
+                                      data-element_type="widget"
+                                      data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
+                                      data-widget_type="craftcoffee-gallery-horizontal.default"
+                                    >
+                                      <div className="elementor-widget-container">
+                                        <GallerySlider />
+                                      </div>
+                                    </div>
+
+                                    <div
+                                      className="elementor-element elementor-element-9f23810 elementor-align-center elementor-widget elementor-widget-button"
+                                      data-id="9f23810"
+                                      data-element_type="widget"
+                                      data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
+                                      data-widget_type="button.default"
+                                    >
+                                      <div className="elementor-widget-container">
+                                        <div className="elementor-button-wrapper">
+                                          <a
+                                            href="https://instagram"
+                                            className="elementor-button-link elementor-button elementor-size-sm"
+                                            role="button"
+                                          >
+                                            <span className="elementor-button-content-wrapper">
+                                              <span className="elementor-button-icon elementor-align-icon-left">
+                                                {" "}
+                                                <i
+                                                  aria-hidden="true"
+                                                  className="fab fa-instagram"
+                                                ></i>{" "}
+                                              </span>
+                                              <span className="elementor-button-text">
+                                                @newcoffee.com.tr
+                                              </span>
+                                            </span>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
                       </div>
                     </div>
                   </div>

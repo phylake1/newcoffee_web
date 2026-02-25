@@ -3,7 +3,8 @@
     "allow": [
       "Bash(xargs:*)",
       "Bash(sort:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "WebFetch(domain:max-themes.net)"
     ]
   }
 }

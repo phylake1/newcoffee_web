@@ -2,13 +2,17 @@
 
 import { useRef } from "react";
 
-const images = [
-  "/images/11.jpeg",
-  "/images/4.jpeg",
-  "/images/5.jpeg",
-  "/images/6.jpeg",
-  "/images/10.jpeg",
-];
+const ChevronLeft = () => (
+  <svg viewBox="0 0 100 100" width="24" height="24">
+    <path d="M 10,50 L 60,100 L 70,90 L 30,50 L 70,10 L 60,0 Z" fill="white" />
+  </svg>
+);
+
+const ChevronRight = () => (
+  <svg viewBox="0 0 100 100" width="24" fill="white" height="24">
+    <path d="M 90,50 L 40,100 L 30,90 L 70,50 L 30,10 L 40,0 Z" />
+  </svg>
+);
 
 export default function GallerySlider() {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -18,114 +22,74 @@ export default function GallerySlider() {
   };
 
   return (
-    <div
-      className="elementor-element elementor-element-67fe11f"
-      style={{ backgroundColor: "#f0e9da", padding: "0" }}
-    >
-      {/* Grid: [ok] [galeri şeridi] [ok] */}
+    // Tek grid hücresi — galeri + oklar üst üste, içerik sıkışmaz
+    <div style={{ display: "grid", width: "100%" }}>
+
+      {/* Görsel şeridi — grid cell 1/1 */}
       <div
+        ref={scrollRef}
+        className="horizontal-gallery-wrapper"
+        data-autoplay="0" data-loop="0" data-navigation="1"
+        data-pagination="0" data-parallax="1" data-fullscreen="0"
         style={{
-          display: "grid",
-          gridTemplateColumns: "60px 1fr 60px",
-          alignItems: "center",
-          width: "100%",
+          gridColumn: "1", gridRow: "1",
+          scrollbarWidth: "none",
+          msOverflowStyle: "none",
+        } as React.CSSProperties}
+      >
+        <div className="horizontal-gallery-cell" style={{ marginRight: "40px" }}>
+          <img className="horizontal-gallery-cell-img" src="/images/11.jpeg" alt="" style={{ height: "450px" }} />
+        </div>
+        <div className="horizontal-gallery-cell" style={{ marginRight: "40px" }}>
+          <img className="horizontal-gallery-cell-img" src="/images/4.jpeg" alt="" style={{ height: "450px" }} />
+        </div>
+        <div className="horizontal-gallery-cell" style={{ marginRight: "40px" }}>
+          <img className="horizontal-gallery-cell-img" src="/images/5.jpeg" alt="" style={{ height: "450px" }} />
+        </div>
+        <div className="horizontal-gallery-cell" style={{ marginRight: "40px" }}>
+          <img className="horizontal-gallery-cell-img" src="/images/6.jpeg" alt="" style={{ height: "450px" }} />
+        </div>
+        <div className="horizontal-gallery-cell" style={{ marginRight: "40px" }}>
+          <img className="horizontal-gallery-cell-img" src="/images/10.jpeg" alt="" style={{ height: "450px" }} />
+        </div>
+      </div>
+
+      <button
+        onClick={() => scroll("left")}
+        aria-label="Önceki"
+        style={{
+          gridColumn: "1", gridRow: "1",
+          justifySelf: "start", alignSelf: "center",
+          position: "relative", zIndex: 2,
+          width: "44px", height: "44px",
+          background: "hsla(0,0%,100%,0)",
+          border: "none", borderRadius: "0",
+          cursor: "pointer", padding: "0",
+          display: "flex", alignItems: "center", justifyContent: "center",
+          marginLeft: "20px",
         }}
       >
-        {/* Sol ok */}
-        <button
-          onClick={() => scroll("left")}
-          aria-label="Önceki"
-          style={{
-            width: "48px",
-            height: "48px",
-            borderRadius: "50%",
-            border: "2px solid rgba(255,255,255,0.9)",
-            background: "rgba(0,0,0,0.55)",
-            color: "#fff",
-            fontSize: "26px",
-            lineHeight: "1",
-            cursor: "pointer",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            margin: "0 auto",
-            padding: "0",
-            boxShadow: "0 2px 10px rgba(0,0,0,0.4)",
-            flexShrink: 0,
-          }}
-        >
-          ‹
-        </button>
+        <ChevronLeft />
+      </button>
 
-        {/* Görsel şeridi */}
-        <div
-          ref={scrollRef}
-          style={{
-            display: "flex",
-            flexWrap: "nowrap",
-            overflowX: "auto",
-            gap: "40px",
-            minHeight: "450px",
-            alignItems: "center",
-            scrollbarWidth: "none",
-            msOverflowStyle: "none",
-          } as React.CSSProperties}
-        >
-          {images.map((src, i) => (
-            <div key={i} style={{ flexShrink: 0 }}>
-              <img
-                src={src}
-                alt=""
-                style={{ height: "450px", width: "auto", display: "block" }}
-              />
-            </div>
-          ))}
-        </div>
+      <button
+        onClick={() => scroll("right")}
+        aria-label="Sonraki"
+        style={{
+          gridColumn: "1", gridRow: "1",
+          justifySelf: "end", alignSelf: "center",
+          position: "relative", zIndex: 2,
+          width: "44px", height: "44px",
+          background: "hsla(0,0%,100%,0)",
+          border: "none", borderRadius: "0",
+          cursor: "pointer", padding: "0",
+          display: "flex", alignItems: "center", justifyContent: "center",
+          marginRight: "20px",
+        }}
+      >
+        <ChevronRight />
+      </button>
 
-        {/* Sağ ok */}
-        <button
-          onClick={() => scroll("right")}
-          aria-label="Sonraki"
-          style={{
-            width: "48px",
-            height: "48px",
-            borderRadius: "50%",
-            border: "2px solid rgba(255,255,255,0.9)",
-            background: "rgba(0,0,0,0.55)",
-            color: "#fff",
-            fontSize: "26px",
-            lineHeight: "1",
-            cursor: "pointer",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            margin: "0 auto",
-            padding: "0",
-            boxShadow: "0 2px 10px rgba(0,0,0,0.4)",
-            flexShrink: 0,
-          }}
-        >
-          ›
-        </button>
-      </div>
-
-      {/* Instagram butonu */}
-      <div style={{ textAlign: "center", paddingBottom: "20px", paddingTop: "16px" }}>
-        <a
-          href="https://instagram.com/newcoffee.com.tr"
-          className="elementor-button-link elementor-button elementor-size-sm"
-          role="button"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span className="elementor-button-content-wrapper">
-            <span className="elementor-button-icon elementor-align-icon-left">
-              <i aria-hidden="true" className="fab fa-instagram" />
-            </span>
-            <span className="elementor-button-text">@newcoffee.com.tr</span>
-          </span>
-        </a>
-      </div>
     </div>
   );
 }
