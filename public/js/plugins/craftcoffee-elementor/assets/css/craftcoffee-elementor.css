@@ -147,7 +147,7 @@ html.elementor-html .smoove
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #000;
+	background: rgba(0, 0, 0, 0);
 	display: block;
 	content: '';
     transform: scaleY(1);

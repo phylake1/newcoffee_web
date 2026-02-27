@@ -4,7 +4,12 @@
       "Bash(xargs:*)",
       "Bash(sort:*)",
       "Bash(npx tsc:*)",
-      "WebFetch(domain:max-themes.net)"
+      "WebFetch(domain:max-themes.net)",
+      "Bash(for id in dd13ab8 72155ed ee6c107 e8d4d80 041856f db40567 c22aa4e 7efb73b)",
+      "Bash(do)",
+      "Bash(echo:*)",
+      "Bash(done)",
+      "Bash(python3:*)"
     ]
   }
 }

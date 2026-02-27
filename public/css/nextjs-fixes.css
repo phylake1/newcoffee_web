@@ -259,3 +259,53 @@ iframe[src*="google.com/maps"]:hover {
 .elementor-widget[data-settings*="is_scrollme"] .elementor-widget-container {
   will-change: transform;
 }
+
+/* background-image'ler <img> tag'e taşındı — CSS background'ı sıfırla */
+.elementor-element-dd13ab8,
+.elementor-element-72155ed,
+.elementor-element-ee6c107,
+.elementor-element-e8d4d80,
+.elementor-element-041856f,
+.elementor-element-db40567,
+.elementor-element-c22aa4e,
+.elementor-element-7efb73b,
+.elementor-element-1ef6e22,
+.elementor-element-979fb6c,
+.elementor-element-4923803,
+.elementor-element-41f3271,
+.elementor-element-042750e,
+.elementor-element-1dc1c7a,
+.elementor-element-7817036,
+.elementor-element-ac83152 {
+  background-image: none !important;
+}
+
+/* Products sayfası — ürünler yanyana (WooCommerce float CSS yok, flexbox ile düzelt) */
+.woocommerce ul.products,
+.woocommerce-page ul.products {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none !important;
+  gap: 30px !important;
+}
+
+/* Desktop: 3 sütun */
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+  width: calc(33.333% - 20px) !important;
+  margin: 0 !important;
+  float: none !important;
+}
+
+/* Mobil: 2 sütun */
+@media (max-width: 767px) {
+  .woocommerce ul.products {
+    gap: 16px !important;
+  }
+  .woocommerce ul.products li.product,
+  .woocommerce-page ul.products li.product {
+    width: calc(50% - 8px) !important;
+  }
+}

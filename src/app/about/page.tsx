@@ -21,6 +21,7 @@ export default function AboutPage() {
                                             data-element_type="section"
                                             data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"true","craftcoffee_ext_is_background_parallax_speed":{"unit":"px","size":0.8000000000000000444089209850062616169452667236328125,"sizes":[]}}'
                                         >
+                                            <img src="/images/2.jpeg" alt="" aria-hidden="true" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }} />
                                             <div className="elementor-background-overlay"></div>
                                             <div className="elementor-container elementor-column-gap-default">
                                                 <div className="elementor-row">
@@ -40,7 +41,7 @@ export default function AboutPage() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h1 className="elementor-heading-title elementor-size-default">About Us</h1>
+                                                                        <h1 className="elementor-heading-title elementor-size-default">Biz Kimiz?</h1>
                                                                     </div>
                                                                 </div>
                                                                 <div
@@ -52,7 +53,7 @@ export default function AboutPage() {
                                                                 >
                                                                     <div className="elementor-widget-container">
                                                                         <div className="elementor-text-editor elementor-clearfix">
-                                                                            <p>Eaton cracking goal so I said a load of old tosh baking cakes, geeza arse it’s your round grub sloshed burke, my good sir chancer he legged it he lost his bottle.</p>
+                                                                            <p>Özenle seçilmiş çekirdekler ve hassas kavurma teknikleriyle her fincanda dengeli ve zengin aroma sunar. New Coffee, kaliteyi standart değil, karakter hâline getirir.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -68,6 +69,7 @@ export default function AboutPage() {
                                             data-element_type="section"
                                             data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"false"}'
                                         >
+                                            <img src="/upload/bg-header-overlay-lg.png" alt="" aria-hidden="true" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }} />
                                             <div className="elementor-container elementor-column-gap-default">
                                                 <div className="elementor-row">
                                                     <div
@@ -172,7 +174,7 @@ export default function AboutPage() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default">My bucket list is pretty short. Honestly, buying this Ford Bronco was definitely a scratch off of the bucket list.</h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default">Özenle seçilen çekirdekler, dengeli kavurma profilleri ve her fincanda tutarlı aroma. New Coffee, kahveyi sıradan bir alıskanlık degil, karakteri olan bir deneyim olarak sunar.</h2>
                                                                     </div>
                                                                 </div>
                                                                 <div
@@ -200,7 +202,8 @@ export default function AboutPage() {
                                                                             <img
                                                                                 width="350"
                                                                                 height="48"
-                                                                                src="/upload/signature-1-e1592385747477.png"
+                                                                                style={{width: "200px"}}
+                                                                                src="/images/logo_brown.png"
                                                                                 className="attachment-large size-large"
                                                                                 alt=""
                                                                                 loading="lazy"
@@ -208,7 +211,7 @@ export default function AboutPage() {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div
+                                                                {/* <div
                                                                     className="elementor-element elementor-element-c76bd2b elementor-widget elementor-widget-heading"
                                                                     data-id="c76bd2b"
                                                                     data-element_type="widget"
@@ -218,7 +221,7 @@ export default function AboutPage() {
                                                                     <div className="elementor-widget-container">
                                                                         <span className="elementor-heading-title elementor-size-default">CEO & Founder Craft Coffee</span>
                                                                     </div>
-                                                                </div>
+                                                                </div> */}
                                                             </div>
                                                         </div>
                                                     </div>
@@ -231,6 +234,7 @@ export default function AboutPage() {
                                             data-element_type="section"
                                             data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"false"}'
                                         >
+                                            <img src="/upload/bg-header-overlay-lg-2.png" alt="" aria-hidden="true" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }} />
                                             <div className="elementor-container elementor-column-gap-default">
                                                 <div className="elementor-row">
                                                     <div
@@ -288,7 +292,7 @@ export default function AboutPage() {
                                                                             <img
                                                                                 width="683"
                                                                                 height="1024"
-                                                                                src="/upload/cup-of-espresso-coffee-TZJ9ESV-683x1024.jpg"
+                                                                                src="/images/9.jpeg"
                                                                                 className="attachment-large size-large"
                                                                                 alt=""
                                                                                 loading="lazy"
@@ -304,7 +308,7 @@ export default function AboutPage() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default">Makes Us Serve</h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default">Yeni Bir Seviye</h2>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -339,7 +343,7 @@ export default function AboutPage() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h2 className="elementor-heading-title elementor-size-default">About Us</h2>
+                                                                        <h2 className="elementor-heading-title elementor-size-default">New Coffee</h2>
                                                                     </div>
                                                                 </div>
                                                                 <div
@@ -352,11 +356,9 @@ export default function AboutPage() {
                                                                     <div className="elementor-widget-container">
                                                                         <div className="elementor-text-editor elementor-clearfix">
                                                                             <p>
-                                                                                Exercitation photo booth stumptown tote bag Banksy, elit small batch freegan sed. Craft beer elit seitan exercitation, photo booth et 8-bit kale chips proident chillwave
-                                                                                deep v laborum. Aliquip veniam delectus, Marfa eiusmod Pinterest in do umami readymade swag. Selfies iPhone Kickstarter, drinking vinegar jean vinegar stumptown yr pop-up
-                                                                                artisan.
+                                                                                New Coffee, özenle seçilmiş single-origin çekirdeklerden hazırlanır ve her fincanda dengeli bir aroma deneyimi sunar. Orta kavrum profili; çikolata, hafif narenciye ve fındık notalarını bir araya getirerek yumuşak ama karakterli bir içim sağlar. Tazelik bizim için detay değil, standarttır.
                                                                             </p>
-                                                                            <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica.</p>
+                                                                            <p>Her parti küçük ölçekli olarak kavrulur ve maksimum lezzet için dinlendirilir. İster sabah ritüelinizde ister gün ortası molanızda, New Coffee sade, net ve rafine bir kahve deneyimi sunar.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -394,7 +396,7 @@ export default function AboutPage() {
                                                                             <img
                                                                                 width="683"
                                                                                 height="1024"
-                                                                                src="/upload/barista-pouring-coffee-cafe-working-startup-busine-PFHMPA7-683x1024.jpg"
+                                                                                src="/images/11.jpeg"
                                                                                 className="attachment-large size-large"
                                                                                 alt="Barista Pouring Coffee"
                                                                                 loading="lazy"
@@ -425,7 +427,7 @@ export default function AboutPage() {
                                                                             <img
                                                                                 width="683"
                                                                                 height="1024"
-                                                                                src="/upload/dalgona-coffee-in-glass-cup-LCY3ELD-683x1024.jpg"
+                                                                                src="/images/10.jpeg"
                                                                                 className="attachment-large size-large"
                                                                                 alt="Dalgona Coffee in Glass"
                                                                                 loading="lazy"
@@ -445,6 +447,7 @@ export default function AboutPage() {
                                             data-element_type="section"
                                             data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"false"}'
                                         >
+                                            <img src="/upload/bg-header-overlay-lg.png" alt="" aria-hidden="true" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }} />
                                             <div className="elementor-container elementor-column-gap-default">
                                                 <div className="elementor-row">
                                                     <div
@@ -547,10 +550,10 @@ export default function AboutPage() {
                                                                                             data-widget_type="heading.default"
                                                                                         >
                                                                                             <div className="elementor-widget-container">
-                                                                                                <h2 className="elementor-heading-title elementor-size-default">Coffee shared with a friend is happiness</h2>
+                                                                                                <h2 className="elementor-heading-title elementor-size-default">En iyi anlar, paylasılan bir fincanla baslar.</h2>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
+                                                                                        {/* <div
                                                                                             className="elementor-element elementor-element-66c75e2 elementor-widget elementor-widget-heading"
                                                                                             data-id="66c75e2"
                                                                                             data-element_type="widget"
@@ -560,7 +563,7 @@ export default function AboutPage() {
                                                                                             <div className="elementor-widget-container">
                                                                                                 <span className="elementor-heading-title elementor-size-default">Philosophy</span>
                                                                                             </div>
-                                                                                        </div>
+                                                                                        </div> */}
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -584,7 +587,7 @@ export default function AboutPage() {
                                                                                                     <img
                                                                                                         width="683"
                                                                                                         height="1024"
-                                                                                                        src="/upload/close-up-of-coffee-machine-in-cafe-PUW782D-683x1024.jpg"
+                                                                                                        src="/images/11.jpeg"
                                                                                                         className="attachment-large size-large"
                                                                                                         alt="Close up of Coffee Machine"
                                                                                                         loading="lazy"
@@ -611,7 +614,7 @@ export default function AboutPage() {
                                                                                             data-widget_type="heading.default"
                                                                                         >
                                                                                             <div className="elementor-widget-container">
-                                                                                                <h2 className="elementor-heading-title elementor-size-default">Coffee is the best thing to douse the sunrise with</h2>
+                                                                                                <h2 className="elementor-heading-title elementor-size-default">Güne kahveyle basla, gerisi kendiliginden gelir.</h2>
                                                                                             </div>
                                                                                         </div>
                                                                                         <div
@@ -624,8 +627,7 @@ export default function AboutPage() {
                                                                                             <div className="elementor-widget-container">
                                                                                                 <div className="elementor-text-editor elementor-clearfix">
                                                                                                     <p>
-                                                                                                        Exercitation photo booth stumptown tote bag Banksy, elit small batch freegan sed. Craft beer elit seitan exercitation, photo booth et 8-bit kale
-                                                                                                        chips proident chillwave deep v laborum. Aliquip veniam delectus, Marfa eiusmod.
+                                                                                                        Günün ilk ışıklarıyla birlikte fincanınızdan yükselen aroma, sabahın sessizliğini lezzetle buluşturur. Özenle kavrulmuş çekirdeklerimiz; dengeli, yumuşak ve karakterli bir içim sunar. Çünkü her yeni başlangıç, iyi bir kahveyi hak eder.
                                                                                                     </p>
                                                                                                 </div>
                                                                                             </div>
@@ -641,7 +643,7 @@ export default function AboutPage() {
                                                                                                 <div className="elementor-button-wrapper">
                                                                                                     <a href="tel:234.567.3455" className="elementor-button-link elementor-button elementor-size-sm elementor-animation-shrink" role="button">
                                                                                                         <span className="elementor-button-content-wrapper">
-                                                                                                            <span className="elementor-button-text">234.567.3455</span>
+                                                                                                            <span className="elementor-button-text">05542423107</span>
                                                                                                         </span>
                                                                                                     </a>
                                                                                                 </div>

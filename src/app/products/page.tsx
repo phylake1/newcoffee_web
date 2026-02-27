@@ -95,14 +95,19 @@ export default function ProductsPage() {
                     <div className="elementor-inner">
                       <div className="elementor-section-wrap">
 
-                        {/* ── Hero Section ── */}
+                        {/* ── Hero Section — about sayfasıyla aynı yapı ── */}
                         <section
-                          className="elementor-section elementor-top-section elementor-element elementor-element-prod-hero elementor-section-stretched elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
-                          data-id="prod-hero"
+                          className="elementor-section elementor-top-section elementor-element elementor-element-4923803 elementor-section-stretched elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
+                          data-id="4923803"
                           data-element_type="section"
-                          data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"false"}'
-                          style={{ backgroundImage: "url(/upload/aerial-view-of-various-coffee-P7X5ZDW-700x466.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}
+                          data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"true","craftcoffee_ext_is_background_parallax_speed":{"unit":"px","size":0.8,"sizes":[]}}'
                         >
+                          <img
+                            src="/upload/aerial-view-of-various-coffee-P7X5ZDW-700x466.jpg"
+                            alt=""
+                            aria-hidden="true"
+                            style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }}
+                          />
                           <div className="elementor-background-overlay"></div>
                           <div className="elementor-container elementor-column-gap-default">
                             <div className="elementor-row">
@@ -115,26 +120,43 @@ export default function ProductsPage() {
                                 <div className="elementor-column-wrap elementor-element-populated">
                                   <div className="elementor-widget-wrap">
                                     <div
-                                      className="elementor-element elementor-element-prod-h3 elementor-widget elementor-widget-heading"
-                                      data-id="prod-h3"
+                                      className="elementor-element elementor-element-a5bf6ba elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-heading"
+                                      data-id="a5bf6ba"
                                       data-element_type="widget"
-                                      data-settings='{"craftcoffee_ext_is_smoove":"true","craftcoffee_ext_smoove_disable":"769","craftcoffee_ext_smoove_duration":1000,"craftcoffee_ext_smoove_scalex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_scaley":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatey":{"unit":"px","size":100,"sizes":[]},"craftcoffee_ext_is_fadeout_animation":"true","craftcoffee_ext_is_fadeout_animation_velocity":{"unit":"px","size":0.3,"sizes":[]},"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_smoove_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewx":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewy":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_perspective":{"unit":"px","size":1000,"sizes":[]},"craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation_direction":"up"}'
+                                      data-settings='{"craftcoffee_ext_is_fadeout_animation":"true","craftcoffee_ext_is_fadeout_animation_velocity":{"unit":"px","size":0.5,"sizes":[]},"_animation":"fadeIn","_animation_delay":200,"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation_direction":"up"}'
                                       data-widget_type="heading.default"
                                     >
                                       <div className="elementor-widget-container">
-                                        <h3 className="elementor-heading-title elementor-size-default">Tüm Ürünler</h3>
+                                        <h1 className="elementor-heading-title elementor-size-default">Tüm Ürünler</h1>
                                       </div>
                                     </div>
-                                    <div
-                                      className="elementor-element elementor-element-prod-h1 elementor-widget elementor-widget-heading"
-                                      data-id="prod-h1"
-                                      data-element_type="widget"
-                                      data-settings='{"craftcoffee_ext_is_smoove":"true","craftcoffee_ext_smoove_disable":"769","craftcoffee_ext_smoove_duration":1000,"craftcoffee_ext_smoove_scalex":{"unit":"px","size":2,"sizes":[]},"craftcoffee_ext_smoove_scaley":{"unit":"px","size":2,"sizes":[]},"craftcoffee_ext_is_fadeout_animation":"true","craftcoffee_ext_is_fadeout_animation_direction":"down","craftcoffee_ext_is_fadeout_animation_velocity":{"unit":"px","size":0.5,"sizes":[]},"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_smoove_rotatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_rotatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatex":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatey":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_translatez":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewx":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_skewy":{"unit":"px","size":0,"sizes":[]},"craftcoffee_ext_smoove_perspective":{"unit":"px","size":1000,"sizes":[]},"craftcoffee_ext_is_infinite":"false"}'
-                                      data-widget_type="heading.default"
-                                    >
-                                      <div className="elementor-widget-container">
-                                        <h1 className="elementor-heading-title elementor-size-default">Products</h1>
-                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+
+                        {/* ── Dekoratif ince şerit (diğer sayfalardaki gibi) ── */}
+                        <section
+                          className="elementor-section elementor-top-section elementor-element elementor-element-979fb6c elementor-section-stretched elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
+                          data-id="979fb6c"
+                          data-element_type="section"
+                          data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"false"}'
+                        >
+                          <img src="/upload/bg-header-overlay-lg.png" alt="" aria-hidden="true" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }} />
+                          <div className="elementor-container elementor-column-gap-default">
+                            <div className="elementor-row">
+                              <div
+                                className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-prod-sep-col"
+                                data-id="prod-sep-col"
+                                data-element_type="column"
+                                data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
+                              >
+                                <div className="elementor-column-wrap elementor-element-populated">
+                                  <div className="elementor-widget-wrap">
+                                    <div className="elementor-widget-container">
+                                      <div className="elementor-spacer"><div className="elementor-spacer-inner"></div></div>
                                     </div>
                                   </div>
                                 </div>
@@ -169,58 +191,46 @@ export default function ProductsPage() {
                                       data-widget_type="text-editor.default"
                                     >
                                       <div className="elementor-widget-container">
-                                        <div className="woocommerce">
-                                          <ul className="products columns-3">
-                                            {products.map((product) => (
-                                              <li
-                                                key={product.id}
-                                                className="product type-product post-status-publish"
-                                              >
-                                                <a
-                                                  href={`/products/${product.id}`}
-                                                  className="woocommerce-LoopProduct-link woocommerce-loop-product__link"
+                                        <div className="woocommerce-grid-container">
+                                          <div className="woocommerce columns-3">
+                                            <ul className="products columns-3">
+                                              {products.map((product) => (
+                                                <li
+                                                  key={product.id}
+                                                  className="product type-product status-publish instock has-post-thumbnail purchasable product-type-simple"
                                                 >
-                                                  <img
-                                                    src={product.image}
-                                                    className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                    alt={product.name}
-                                                    loading="lazy"
-                                                  />
-                                                  <span
-                                                    className="woocommerce-loop-category__title"
-                                                    style={{
-                                                      fontSize: "12px",
-                                                      letterSpacing: "2px",
-                                                      textTransform: "uppercase",
-                                                      color: "#c8a97e",
-                                                      display: "block",
-                                                      marginTop: "20px",
-                                                      marginBottom: "6px",
-                                                    }}
+                                                  <a
+                                                    href={`/products/${product.id}`}
+                                                    className="woocommerce-LoopProduct-link woocommerce-loop-product__link"
                                                   >
-                                                    {product.category}
-                                                  </span>
-                                                  <h2 className="woocommerce-loop-product__title">
-                                                    {product.name}
-                                                  </h2>
-                                                  <span className="price">
-                                                    <span className="woocommerce-Price-amount amount">
-                                                      <bdi>
-                                                        <span className="woocommerce-Price-currencySymbol">₺</span>
-                                                        {product.price}
-                                                      </bdi>
+                                                    <img
+                                                      src={product.image}
+                                                      className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                                      alt={product.name}
+                                                      loading="lazy"
+                                                    />
+                                                    <h2 className="woocommerce-loop-product__title">
+                                                      {product.name}
+                                                    </h2>
+                                                    <span className="price">
+                                                      <span className="woocommerce-Price-amount amount">
+                                                        <bdi>
+                                                          <span className="woocommerce-Price-currencySymbol">₺</span>
+                                                          {product.price}
+                                                        </bdi>
+                                                      </span>
                                                     </span>
-                                                  </span>
-                                                </a>
-                                                <a
-                                                  href={`/products/${product.id}`}
-                                                  className="button add_to_cart_button"
-                                                >
-                                                  Detaylar
-                                                </a>
-                                              </li>
-                                            ))}
-                                          </ul>
+                                                  </a>
+                                                  <a
+                                                    href={`/products/${product.id}`}
+                                                    className="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                  >
+                                                    Detaylar
+                                                  </a>
+                                                </li>
+                                              ))}
+                                            </ul>
+                                          </div>
                                         </div>
                                       </div>
                                     </div>

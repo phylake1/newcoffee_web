@@ -154,6 +154,7 @@ export default function HomePage() {
                           data-element_type="section"
                           data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"false"}'
                         >
+                          <img src="/upload/bg-header-overlay-lg.png" alt="" aria-hidden="true" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }} />
                           <div className="elementor-container elementor-column-gap-default">
                             <div className="elementor-row">
                               <div
@@ -500,6 +501,7 @@ export default function HomePage() {
                           data-element_type="section"
                           data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"false"}'
                         >
+                          <img src="/upload/bg-header-overlay-lg-2.png" alt="" aria-hidden="true" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }} />
                           <div className="elementor-container elementor-column-gap-default">
                             <div className="elementor-row">
                               <div
@@ -536,6 +538,7 @@ export default function HomePage() {
                           data-element_type="section"
                           data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"true","craftcoffee_ext_is_background_parallax_speed":{"unit":"px","size":0.8000000000000000444089209850062616169452667236328125,"sizes":[]}}'
                         >
+                          <img src="/images/5.jpeg" alt="" aria-hidden="true" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }} />
                           <div className="elementor-background-overlay"></div>
                           <div className="elementor-container elementor-column-gap-default">
                             <div className="elementor-row">
@@ -586,6 +589,7 @@ export default function HomePage() {
                           data-element_type="section"
                           data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"false"}'
                         >
+                          <img src="/upload/bg-header-overlay-lg.png" alt="" aria-hidden="true" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }} />
                           <div className="elementor-container elementor-column-gap-default">
                             <div className="elementor-row">
                               <div
@@ -2717,6 +2721,7 @@ export default function HomePage() {
                           data-element_type="section"
                           data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"false"}'
                         >
+                          <img src="/upload/bg-header-overlay-lg-2.png" alt="" aria-hidden="true" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }} />
                           <div className="elementor-container elementor-column-gap-default">
                             <div className="elementor-row">
                               <div
@@ -2753,6 +2758,7 @@ export default function HomePage() {
                           data-element_type="section"
                           data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"true","craftcoffee_ext_is_background_parallax_speed":{"unit":"px","size":0.8000000000000000444089209850062616169452667236328125,"sizes":[]}}'
                         >
+                          <img src="/images/2.jpeg" alt="" aria-hidden="true" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }} />
                           <div className="elementor-background-overlay"></div>
                           <div className="elementor-container elementor-column-gap-default">
                             <div className="elementor-row">
@@ -2803,6 +2809,7 @@ export default function HomePage() {
                           data-element_type="section"
                           data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"false"}'
                         >
+                          <img src="/upload/bg-header-overlay-lg.png" alt="" aria-hidden="true" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }} />
                           <div className="elementor-container elementor-column-gap-default">
                             <div className="elementor-row">
                               <div
@@ -3224,6 +3231,7 @@ export default function HomePage() {
                           data-element_type="section"
                           data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"false"}'
                         >
+                          <img src="/upload/bg-header-overlay-lg-4.png" alt="" aria-hidden="true" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }} />
                           <div className="elementor-container elementor-column-gap-default">
                             <div className="elementor-row">
                               <div

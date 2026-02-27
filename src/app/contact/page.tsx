@@ -21,6 +21,7 @@ export default function ContactPage() {
                                             data-element_type="section"
                                             data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"false"}'
                                         >
+                                            <img src="/images/3.jpeg" alt="" aria-hidden="true" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }} />
                                             <div className="elementor-background-overlay"></div>
                                             <div className="elementor-container elementor-column-gap-default">
                                                 <div className="elementor-row">
@@ -40,7 +41,7 @@ export default function ContactPage() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h3 className="elementor-heading-title elementor-size-default">Find Us</h3>
+                                                                        <h3 className="elementor-heading-title elementor-size-default">Bize Ulas</h3>
                                                                     </div>
                                                                 </div>
                                                                 <div
@@ -51,7 +52,7 @@ export default function ContactPage() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h1 className="elementor-heading-title elementor-size-default">Contact</h1>
+                                                                        <h1 className="elementor-heading-title elementor-size-default">iletisim</h1>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -66,6 +67,7 @@ export default function ContactPage() {
                                             data-element_type="section"
                                             data-settings='{"stretch_section":"section-stretched","background_background":"classic","craftcoffee_ext_is_background_parallax":"false"}'
                                         >
+                                            <img src="/upload/bg-header-overlay-lg.png" alt="" aria-hidden="true" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0, pointerEvents: "none" }} />
                                             <div className="elementor-container elementor-column-gap-default">
                                                 <div className="elementor-row">
                                                     <div
@@ -119,7 +121,7 @@ export default function ContactPage() {
                                                                     data-widget_type="heading.default"
                                                                 >
                                                                     <div className="elementor-widget-container">
-                                                                        <h3 className="elementor-heading-title elementor-size-default">Openning Hours</h3>
+                                                                        <h3 className="elementor-heading-title elementor-size-default">Çalısma saatleri</h3>
                                                                     </div>
                                                                 </div>
                                                                 <section
@@ -146,7 +148,7 @@ export default function ContactPage() {
                                                                                             data-widget_type="heading.default"
                                                                                         >
                                                                                             <div className="elementor-widget-container">
-                                                                                                <span className="elementor-heading-title elementor-size-default">Working Days</span>
+                                                                                                <span className="elementor-heading-title elementor-size-default">Açık</span>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
@@ -214,7 +216,7 @@ export default function ContactPage() {
                                                                                             data-widget_type="heading.default"
                                                                                         >
                                                                                             <div className="elementor-widget-container">
-                                                                                                <span className="elementor-heading-title elementor-size-default">Saturday</span>
+                                                                                                <span className="elementor-heading-title elementor-size-default">Cumartesi</span>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
@@ -282,7 +284,7 @@ export default function ContactPage() {
                                                                                             data-widget_type="heading.default"
                                                                                         >
                                                                                             <div className="elementor-widget-container">
-                                                                                                <span className="elementor-heading-title elementor-size-default">Sunday</span>
+                                                                                                <span className="elementor-heading-title elementor-size-default">Pazar</span>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
@@ -350,7 +352,7 @@ export default function ContactPage() {
                                                                                             data-widget_type="heading.default"
                                                                                         >
                                                                                             <div className="elementor-widget-container">
-                                                                                                <h4 className="elementor-heading-title elementor-size-default">Address</h4>
+                                                                                                <h4 className="elementor-heading-title elementor-size-default">Adres</h4>
                                                                                             </div>
                                                                                         </div>
                                                                                         <div
@@ -361,31 +363,10 @@ export default function ContactPage() {
                                                                                             data-widget_type="text-editor.default"
                                                                                         >
                                                                                             <div className="elementor-widget-container">
-                                                                                                <div className="elementor-text-editor elementor-clearfix"><p>Our Address 467 Davidson ave, Los Angeles CA 95716</p></div>
+                                                                                                <div className="elementor-text-editor elementor-clearfix"><p>Gaziosmanpasa İstanbul</p></div>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div
-                                                                                            className="elementor-element elementor-element-884f6b9 elementor-widget elementor-widget-heading"
-                                                                                            data-id="884f6b9"
-                                                                                            data-element_type="widget"
-                                                                                            data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
-                                                                                            data-widget_type="heading.default"
-                                                                                        >
-                                                                                            <div className="elementor-widget-container">
-                                                                                                <h4 className="elementor-heading-title elementor-size-default">Customer Support</h4>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div
-                                                                                            className="elementor-element elementor-element-1e185e5 elementor-widget elementor-widget-heading"
-                                                                                            data-id="1e185e5"
-                                                                                            data-element_type="widget"
-                                                                                            data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
-                                                                                            data-widget_type="heading.default"
-                                                                                        >
-                                                                                            <div className="elementor-widget-container">
-                                                                                                <h4 className="elementor-heading-title elementor-size-default"><a href="tel:888.373.2374">888.373.2374</a></h4>
-                                                                                            </div>
-                                                                                        </div>
+                                                                                      
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -397,39 +378,26 @@ export default function ContactPage() {
                                                                             >
                                                                                 <div className="elementor-column-wrap elementor-element-populated">
                                                                                     <div className="elementor-widget-wrap">
-                                                                                        <div
-                                                                                            className="elementor-element elementor-element-4aa8ee25 elementor-widget elementor-widget-heading"
-                                                                                            data-id="4aa8ee25"
+                                                                                         <div
+                                                                                            className="elementor-element elementor-element-884f6b9 elementor-widget elementor-widget-heading"
+                                                                                            data-id="884f6b9"
                                                                                             data-element_type="widget"
                                                                                             data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
                                                                                             data-widget_type="heading.default"
                                                                                         >
                                                                                             <div className="elementor-widget-container">
-                                                                                                <h4 className="elementor-heading-title elementor-size-default">Group Booking</h4>
+                                                                                                <h4 className="elementor-heading-title elementor-size-default">Yardim merkezi</h4>
                                                                                             </div>
                                                                                         </div>
                                                                                         <div
-                                                                                            className="elementor-element elementor-element-9e36a08 elementor-widget elementor-widget-text-editor"
-                                                                                            data-id="9e36a08"
+                                                                                            className="elementor-element elementor-element-1e185e5 elementor-widget elementor-widget-heading"
+                                                                                            data-id="1e185e5"
                                                                                             data-element_type="widget"
                                                                                             data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
-                                                                                            data-widget_type="text-editor.default"
+                                                                                            data-widget_type="heading.default"
                                                                                         >
                                                                                             <div className="elementor-widget-container">
-                                                                                                <div className="elementor-text-editor elementor-clearfix">
-                                                                                                    <p>Craft beer elit seitan exercitation, photo booth et 8-bit kale chips proident chillwave deep v laborum.</p>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div
-                                                                                            className="elementor-element elementor-element-f44674b elementor-widget elementor-widget-text-editor"
-                                                                                            data-id="f44674b"
-                                                                                            data-element_type="widget"
-                                                                                            data-settings='{"craftcoffee_ext_is_scrollme":"false","craftcoffee_ext_is_smoove":"false","craftcoffee_ext_is_parallax_mouse":"false","craftcoffee_ext_is_infinite":"false","craftcoffee_ext_is_fadeout_animation":"false"}'
-                                                                                            data-widget_type="text-editor.default"
-                                                                                        >
-                                                                                            <div className="elementor-widget-container">
-                                                                                                <div className="elementor-text-editor elementor-clearfix"><p>Aliquip veniam delectus, Marfa eiusmod Pinterest in do umami readymade swag.</p></div>
+                                                                                                <h4 className="elementor-heading-title elementor-size-default"><a href="tel:888.373.2374">05542423107</a></h4>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
